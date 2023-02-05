@@ -2,8 +2,8 @@
     margin: 0;
 }
 html{
-    /* image by Silas Baisch, Unsplash */
-    background: #169de5 url(images/water.jpg) ;
+    /* image by Wesley Tingey, Unsplash */
+    background: #169de5 url(images/water.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,4 +33,8 @@ body{
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0, 2.5, 0.58, 1);
+    transform: all 0.5s;
 }
